@@ -3,7 +3,15 @@ uuid = "8dd07d2c-7ebb-4b16-8d8a-fee69c218bb8"
 authors = ["Malte Krug <malte.krug@uni-ulm.de> and contributors"]
 version = "1.0.0-DEV"
 
+[deps]
+FVUnraveling = "eb1d51a1-ef5c-4e31-87b7-048ef0f46ab6"
+Optim = "429524aa-4258-5aef-a3af-852621145aeb"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+
 [compat]
+FVUnraveling = "1.0.0"
+Optim = "1.13.2"
+SparseArrays = "1.11.0"
 julia = "1.11"
 
 [extras]
